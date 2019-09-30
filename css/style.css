@@ -1,0 +1,102 @@
+#container{
+    width: 1050px;
+    height: 700px;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+#header {
+    width: auto;
+    height: 100px;
+    border: 1px solid grey;
+    padding: 10px 0
+}
+
+#brand {
+    width: 400px;
+    height: 50px;
+    margin-top: 25px;
+    border: 0px solid grey;
+    position: relative;
+    float: left;
+}
+h1 a{
+    font-size: 40px;
+    font-weight: 100px;
+    color: #002366;
+    text-decoration: none;
+}
+
+#searchbox {
+    width: 400px;
+    height: 50px;
+    margin-top: 25px;
+   /* border: 1px solid grey; */ /* This is to map out the borther*/
+    position: relative;
+    float: right;
+    background: linear-gradient(#adff2f, #008000);
+    background: -webkit-linear-gradient(#adff2f, #008000);
+    background: -o-linear-gradient(#adff2f, #008000);
+    background: -moz-linear-gradient(#adff2f, #008000);
+  /*
+    background: linear-gradient(greenyellow, green);
+    we may use the color name instead of the hex value*/
+    padding: 20px 20px 0px 20px; 
+  
+}
+
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #002366;
+    background-color: aqua;
+    background: white url(images/searchlogo.png) right center no-repeat;
+    
+}
+
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #002366;
+    font-size: 15px;
+}
+
+#menu {
+    width: auto;
+    height: 70px;
+    border: 0px solid grey;
+    background: linear-gradient(white, chartreuse);
+    background: -webkit-linear-gradient(white, chartreuse);
+    background: -o-linear-gradient(white, chartreuse);
+    background: -moz-linear-gradient(hite, chartreuse);
+    /* background: -moz-linear-gradient(#adff2f, #008000);*/
+    
+}
+
+ul{
+    list-style: none;
+}
+#menu ul li {
+    float: left;
+    padding: 20px 35px;
+    height: 5px;
+    border-right: 1px solid #002366; 
+}
+#menu ul li:last-child {
+    border-right: none;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #002366;
+    line-height: 5px;
+ 
+}
+#menu ul li a:hover{
+    font-size: 20px;
+    font-weight: bold;
+}
