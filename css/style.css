@@ -158,6 +158,10 @@ ul{
 }
 #leftsidebar ul li{
     list-style-image: url(../images/marker.png);
+    color: #002366;
+}
+#rightsidebar ul li{
+    list-style-image: url(../images/mark.png);
 }
 #rightsidebar ul a{
     text-decoration: none;
